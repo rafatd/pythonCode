@@ -1,8 +1,11 @@
-def   substring(str1, str2):
-            if   len(str1)==0 or len(str2)==0:
-                 returnÂ False
+def twoWhiles():
+ loop= 1
+ n= 1
+ while loop < 4:
+ while n < 10:
+ print(n, end="" "")
+ n+= 2
 
-           if str1[0: len(str2)]==str2:
-              return True
-           else:
-              returnÂ substring(str1[1:],Â str2)
+ print()
+ n= 1
+ loop+=1
